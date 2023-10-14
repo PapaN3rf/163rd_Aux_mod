@@ -12,7 +12,7 @@ PixelShaderID = "Super";
 VertexShaderID = "Super";
 class Stage1
 {
-	texture = "163rd_siege_corps\Data\Misc\UpperBody_NOHQ.paa";
+	texture = "163rd_siege_corps\Data\Misc\163rd_UpperBody_NOHQ.paa";
 	uvSource = "tex";
 	class uvTransform
 	{
@@ -48,7 +48,7 @@ class Stage3
 };
 class Stage4
 {
-	texture = "163rd_siege_corps\Data\Misc\UpperBody_AS.paa";
+	texture = "163rd_siege_corps\Data\Misc\163rd_UpperBody_AS.paa";
 	uvSource = "tex";
 	class uvTransform
 	{
@@ -60,7 +60,7 @@ class Stage4
 };
 class Stage5
 {
-	texture = "163rd_siege_corps\Data\Misc\UpperBody_SMDI.paa";
+	texture = "163rd_siege_corps\Data\Misc\163rd_UpperBody_SMDI.paa";
 	uvSource = "tex";
 	class uvTransform
 	{
