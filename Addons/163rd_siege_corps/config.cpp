@@ -44,7 +44,7 @@ class CfgWeapons
 		displayName = "[163rd] P1 Helmet (Base)";
 		picture = "\ls_armor_bluefor\helmet\_ui\icon_gar_phase1_helmet_ca.paa";
 		hiddenSelections[] = {"camo1","visor","illum"};
-		hiddenSelectionsTextures[] = {"163rd_siege_corps\Data\Helmet\163rd_Phase1_Helmet_co.paa","ls_armor_bluefor\helmet\gar\phase1\data\visor_co.paa","ls_armor_bluefor\helmet\gar\phase1\data\illum_co.paa"};
+		hiddenSelectionsTextures[] = {"163rd_siege_corps\Data\Helmet\163rd_Phase1_Helmet_CO.paa","ls_armor_bluefor\helmet\gar\phase1\data\visor_CO.paa","ls_armor_bluefor\helmet\gar\phase1\data\illum_CO.paa"};
 		hiddenSelectionsMaterials[] = {"163rd_siege_corps\Data\Helmet\phase1Helmet.rvmat","\a3\characters_f_bootcamp\common\data\vrarmoremmisive.rvmat"};
 		model = "\ls_armor_bluefor\helmet\gar\phase1\ls_gar_phase1_helmet.p3d";
 		subItems[] = {};
@@ -74,7 +74,7 @@ class CfgWeapons
 		picture = "ls_armor_bluefor\helmet\_ui\icon_gar_phase2_helmet_ca.paa";
 		model = "ls_armor_bluefor\helmet\gar\phase2\ls_gar_phase2_helmet.p3d";
 		hiddenSelections[] = {"camo1","visor"};
-		hiddenSelectionsTextures[] = {"163rd_siege_corps\Data\Helmet\163rd_Phase2_Helmet_co.paa","163rd_siege_corps\Data\Helmet\163rd_Phase2_visor_co.paa"};
+		hiddenSelectionsTextures[] = {"163rd_siege_corps\Data\Helmet\163rd_Phase2_Helmet_CO.paa","163rd_siege_corps\Data\Helmet\163rd_Phase2_visor_CO.paa"};
 		hiddenSelectionsMaterials[] = {"163rd_siege_corps\Data\Helmet\phase2Helmet.rvmat"};//,"163rd_siege_corps\Data\Helmet\p2visor.rvmat"};
 		armor = 5;
 		armorStructural = 8;
@@ -103,26 +103,26 @@ class CfgWeapons
 	{
 		scope = 2;
 		displayName = "[163rd] Phase 1 Helmet (unmarked)";
-		hiddenSelectionsTextures[] = {"163rd_siege_corps\Data\unmarked\163rd_unmarked_Phase1_Helmet_co.paa","163rd_siege_corps\Data\unmarked\163rd_Phase1_unmarked_visor_co.paa","163rd_siege_corps\Data\unmarked\163rd_Phase1_ilum_co.paa"};
+		hiddenSelectionsTextures[] = {"163rd_siege_corps\Data\unmarked\163rd_unmarked_Phase1_Helmet_CO.paa","163rd_siege_corps\Data\unmarked\163rd_Phase1_unmarked_visor_CO.paa","163rd_siege_corps\Data\unmarked\163rd_Phase1_ilum_CO.paa"};
 	};
 	class Siege_Corps_P1_recruit_Helmet: Siege_Corps_P1_unmarked_Helmet
 	{
 		scope = 2;
 		displayName = "[163rd] Phase 1 Helmet (CR)";
-		hiddenSelectionsTextures[] = {"163rd_siege_corps\Data\Helmet\163rd_recruit_Phase1_Helmet_co.paa","163rd_siege_corps\Data\Misc\163rd_Phase1_visor_co.paa","163rd_siege_corps\Data\unmarked163rd_Phase1_ilum_co.paa"};
+		hiddenSelectionsTextures[] = {"163rd_siege_corps\Data\Helmet\163rd_recruit_Phase1_Helmet_CO.paa","163rd_siege_corps\Data\Misc\163rd_Phase1_visor_CO.paa","163rd_siege_corps\Data\unmarked163rd_Phase1_ilum_CO.paa"};
 	};
 	class Siege_Corps_P1_Enlisted_Helmet: Siege_Corps_P1_recruit_Helmet
 	{
 		scope = 2;
 		displayName = "[163rd] Phase 1 Helmet (Enlisted)";
-		hiddenSelectionsTextures[] = {"163rd_siege_corps\Data\Helmet\Phase1_Enlisted_helmet_co.paa","163rd_siege_corps\Data\Misc\163rd_Phase1_visor_co.paa","163rd_siege_corps\Data\unmarked\163rd_Phase1_ilum_co.paa"};
+		hiddenSelectionsTextures[] = {"163rd_siege_corps\Data\Helmet\Phase1_Enlisted_helmet_CO.paa","163rd_siege_corps\Data\Misc\163rd_Phase1_visor_CO.paa","163rd_siege_corps\Data\unmarked\163rd_Phase1_ilum_CO.paa"};
 	};
 	//phase 2//
 	class Siege_Corps_P2_unmarked_Helmet: SiegeCorps_phase2_helmet_base
 	{
 		scope = 2;
 		displayName = "[163rd] Phase 2 Helmet (unmarked)";
-		hiddenSelectionsTextures[] = {"163rd_siege_corps\Data\unmarked\163rd_unmarked_Phase2_Helmet_co.paa","163rd_siege_corps\Data\unmarked\163rd_Phase2_unmarked_visor_co.paa"};
+		hiddenSelectionsTextures[] = {"163rd_siege_corps\Data\unmarked\163rd_unmarked_Phase2_Helmet_CO.paa","163rd_siege_corps\Data\unmarked\163rd_Phase2_unmarked_visor_CO.paa"};
 	};
     //NVG//
 	class Siege_Corps_NVG: SWLB_clone_nvg
@@ -130,14 +130,14 @@ class CfgWeapons
 		author = "163rd SiegeCorps Auxiliary Assets";
 		scopecurator = 2;
 		displayName = "[163rd] Basic NVGs";
-		hiddenSelectionsTextures[] = {"163rd_siege_corps\Data\Misc\163rd_nvgs_co.paa"};
+		hiddenSelectionsTextures[] = {"163rd_siege_corps\Data\Misc\163rd_nvgs_CO.paa"};
 	};
 	class Siege_Corps_specops_NVG: SWLB_clone_nvg_spec
 	{
 		author = "163rd SiegeCorps Auxiliary Assets";
 		scopecurator = 2;
 		displayName = "[163rd] SpecOps Nvgs";
-		hiddenSelectionsTextures[] = {"163rd_siege_corps\Data\Misc\163rd_nvgs_co.paa"};
+		hiddenSelectionsTextures[] = {"163rd_siege_corps\Data\Misc\163rd_nvgs_CO.paa"};
 	};
 	class ls_gar_phase2_uniform;
 	class UniformItem;
@@ -286,7 +286,7 @@ class CfgVehicles
 		linkedItems[]={"","Siege_Corps_P1_unmarked_Helmet","ItemWatch","SWLB_comlink"};
 		respawnLinkedItems[]={"","Siege_Corps_P1_unmarked_Helmet","ItemWatch","SWLB_comlink"};
 		hiddenSelections[] = {"camo1","camo2","undersuit"};
-		hiddenSelectionsTextures[] = {"163rd_siege_corps\Data\Uniforms\163rd_Upper_co.paa","163rd_siege_corps\Data\Uniforms\163rd_Lower_co.paa","163rd_siege_corps\Data\Uniforms\163rd_undersuit.co.paa"};
+		hiddenSelectionsTextures[] = {"163rd_siege_corps\Data\Uniforms\163rd_Upper_CO.paa","163rd_siege_corps\Data\Uniforms\163rd_Lower_CO.paa","163rd_siege_corps\Data\Uniforms\163rd_undersuit_CO.paa"};
 		hiddenSelectionsMaterials[] = {"163rd_siege_corps\Data\Uniforms\CloneChest_Armor.rvmat","163rd_siege_corps\Data\Uniforms\CloneLeg_Armor.rvmat"};
 		armor = 4;
 		armorStructural = 4;
@@ -302,7 +302,7 @@ class CfgVehicles
 		uniformClass = "SiegeCorps_phase1_uniform_unmarked";
 		linkedItems[] = {"Siege_Corps_P1_unmarked_Helmet"};
 		respawnLinkedItems[] = {"Siege_Corps_P1_unmarked_Helmet"};
-		hiddenSelectionsTextures[] = {"163rd_siege_corps\Data\Uniforms\163rd_Upper_co.paa","163rd_siege_corps\Data\Uniforms\163rd_Lower_co.paa","163rd_siege_corps\Data\Uniforms\163rd_undersuit.co.paa"};
+		hiddenSelectionsTextures[] = {"163rd_siege_corps\Data\Uniforms\163rd_Upper_CO.paa","163rd_siege_corps\Data\Uniforms\163rd_Lower_CO.paa","163rd_siege_corps\Data\Uniforms\163rd_undersuit_CO.paa"};
 	};
 	class SiegeCorps_phase2_CloneArmor_unmarked: SiegeCorps_CloneArmor_base_unit
 	{
@@ -312,7 +312,7 @@ class CfgVehicles
 		linkedItems[] = {"Siege_Corps_P2_unmarked_Helmet"};
 		backpack = "BSC_backpack_standard_unmarked";
 		respawnLinkedItems[] = {"Siege_Corps_P2_unmarked_Helmet"};
-		hiddenSelectionsTextures[] = {"163rd_siege_corps\Data\Uniforms\163rd_Upper_co.paa","163rd_siege_corps\Data\Uniforms\163rd_Lower_co.paa","163rd_siege_corps\Data\Uniforms\163rd_undersuit.co.paa"};
+		hiddenSelectionsTextures[] = {"163rd_siege_corps\Data\Uniforms\163rd_Upper_CO.paa","163rd_siege_corps\Data\Uniforms\163rd_Lower_CO.paa","163rd_siege_corps\Data\Uniforms\163rd_undersuit_CO.paa"};
 	};
 	//Unit//
 	class SiegeCorps_CloneArmor_phase1_base_unit: SiegeCorps_CloneArmor_base_unit
@@ -322,7 +322,7 @@ class CfgVehicles
 		uniformclass = "SiegeCorps_CloneArmor_phase1_base_uniform";
 		faction = "SC_categoryGalacticRepublic";
 		editorSubcategory = "SC_subcategory_Infantry";
-		hiddenselectionsTextures[] = {"163rd_siege_corps\Data\Uniforms\163rd_Upper_co.paa","163rd_siege_corps\Data\Uniforms\163rd_Lower_co.paa","163rd_siege_corps\Data\Uniforms\163rd_undersuit.co.paa"};
+		hiddenselectionsTextures[] = {"163rd_siege_corps\Data\Uniforms\163rd_Upper_CO.paa","163rd_siege_corps\Data\Uniforms\163rd_Lower_CO.paa","163rd_siege_corps\Data\Uniforms\163rd_undersuit_CO.paa"};
 		displayName = "[163rd] Phase 1 Clone Trooper";
 		model = "ls_armor_bluefor\uniform\gar\phase2\ls_gar_phase2_uniform.p3d";
 		backpack = "BSC_backpack_standard_unmarked";
@@ -343,7 +343,7 @@ class CfgVehicles
 		uniformclass = "SiegeCorps_cloneArmor_uniform_CR";
 		faction = "SC_categoryGalacticRepublic";
 		editorSubcategory = "SC_subcategory_Infantry";
-		hiddenselectionsTextures[] = {"163rd_siege_corps\Data\Uniforms\163rd_Upper_co.paa","163rd_siege_corps\Data\Uniforms\163rd_Lower_co.paa","163rd_siege_corps\Data\Uniforms\163rd_undersuit.co.paa"};
+		hiddenselectionsTextures[] = {"163rd_siege_corps\Data\Uniforms\163rd_Upper_CO.paa","163rd_siege_corps\Data\Uniforms\163rd_Lower_CO.paa","163rd_siege_corps\Data\Uniforms\163rd_undersuit_CO.paa"};
 		model = "ls_armor_bluefor\uniform\gar\phase2\ls_gar_phase2_uniform.p3d";
 		backpack = "BSC_backpack_standard_unmarked";
 		Items[] = {"FirstAidKit"};
@@ -364,7 +364,7 @@ class CfgVehicles
 		faction = "SC_categoryGalacticRepublic";
 		editorSubcategory = "SC_subcategory_Infantry";
 		uniformclass = "SiegeCorps_cloneArmor_uniform_CT";
-		hiddenselectionsTextures[] = {"163rd_siege_corps\Data\Uniforms\163rd_Upper_co.paa","163rd_siege_corps\Data\Uniforms\163rd_Lower_co.paa","163rd_siege_corps\Data\Uniforms\163rd_undersuit.co.paa"};
+		hiddenselectionsTextures[] = {"163rd_siege_corps\Data\Uniforms\163rd_Upper_CO.paa","163rd_siege_corps\Data\Uniforms\163rd_Lower_CO.paa","163rd_siege_corps\Data\Uniforms\163rd_undersuit_CO.paa"};
 		Items[] = {"FirstAidKit"};
 		RespawnItems[] = {"FirstAidKit"};
 		weapons[] = {"BSC_DC15A_rifle","Throw","Put"};
@@ -383,7 +383,7 @@ class CfgVehicles
 		uniformclass = "SiegeCorps_phase2_cloneArmor_uniform";
 		faction = "SC_categoryGalacticRepublic";
 		editorSubcategory = "SC_subcategory_Infantry";
-		hiddenselectionsTextures[] = {"163rd_siege_corps\Data\Uniforms\163rd_Upper_co.paa","163rd_siege_corps\Data\Uniforms\163rd_Lower_co.paa","ls_armor_bluefor\uniform\gar\phase2\data\163rd_undersuit.co.paa"};
+		hiddenselectionsTextures[] = {"163rd_siege_corps\Data\Uniforms\163rd_Upper_CO.paa","163rd_siege_corps\Data\Uniforms\163rd_Lower_CO.paa","163rd_siege_corps\Data\Uniforms\163rd_undersuit_CO.paa"};
 		model = "ls_armor_bluefor\uniform\gar\phase2\ls_gar_phase2_uniform.p3d";
 		backpack = "BSC_backpack_standard_unmarked";
 		Items[] = {"FirstAidKit"};
